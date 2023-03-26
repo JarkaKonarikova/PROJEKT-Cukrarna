@@ -2,7 +2,156 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
+h1, h2, h3 {
+	font-family: 'Playfair Display', serif;
+	word-spacing: 1.25;
+	margin: 0;
+}
 
+h1 {
+	font-size: 52px;
+	color: white;
+}
+
+h2 {
+	font-size: 36px;
+	color: #3e606b;
+}
+
+h3 {
+	font-size: 18px;
+	color: #3e606b;
+}
+
+p {
+	font-size: 18px;
+	font-family: 'Lora', serif;
+	color: #242424	;
+	word-spacing: 1.5;
+}
+.logo {
+	width: 170px;
+
+}
+.menu a {
+	display: flex;
+	text-align: right;
+	padding: 10px 15px;
+	list-style: none;
+	text-decoration: none;
+	color: #242424;
+	font-size: 18px;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu a:hover,
+.menu a:focus 
+.menu a:active {
+    background-color: #f195b2;
+	border-radius: 20px;
+}
+.hlavicka {
+display: flex;
+padding: 30px 0;
+justify-content: space-evenly;
+max-width: 1100px;
+
+}
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	background-size: cover;
+	
+}
+.heroobsah {
+	padding: 80px 40% 80px 0;
+	max-width: 1100px;
+	margin: 0 auto;
+
+}
+.herotext {
+	font-style: italic;
+	font-size: 24px;
+	color: white;
+}
+
+
+
+.vitejte {
+	display: flex;
+}
+
+.nasevyrobky {
+	background-color: #f195b2;
+	border-radius: 30px;
+	text-decoration: none;
+	color: white;
+	padding: 15px 40px;
+}
+
+.nasevyrobky:hover,
+.nasevyrobky:focus, 
+.nasevyrobky:active {
+    background-color: #d2567d;
+	border-radius: 20px;
+}
+
+.nabidka {
+	background-color: #f0f0f0;
+}
+
+.produkty {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.produkt {
+	margin: 0 15px;
+	background-color: white;
+	border-image: 5px;
+	padding: 0;
+	border-radius: 5px;
+	text-align: center;
+	flex: 0 1 25%;
+}
+
+.pristup {
+	display: flex;
+}
+
+.pristuplevy, pristupravy {
+	margin: 0 30px;
+}
+
+
+.paticka {
+	background-color: #303339;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.textpaticka {
+	color: white;
+}
+
+.fotonabidka {
+	border-radius: 5px 5px 0 0;
+
+}
+
+.foto {
+	border-radius: 5px;
+}
+
+.vitejte, .nabidka, .pristup {
+	padding: 80px 0;
+	max-width: 1100px;
+	margin: 0 auto;
+}
 /*
 	Poznámky:
 	- maximální šířka obsahu uvnitř sekcí je 1100px
@@ -32,4 +181,11 @@ html { box-sizing: border-box; }
 body {
 	margin: 0;
 }
+
+
+div {
+	align-content: center;
+}
+
+
 
