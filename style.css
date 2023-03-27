@@ -56,8 +56,10 @@ p {
 .hlavicka {
 display: flex;
 padding: 30px 0;
-justify-content: space-evenly;
+justify-content: space-between;
 max-width: 1100px;
+margin: 0 auto;
+
 
 }
 
@@ -77,7 +79,6 @@ max-width: 1100px;
 	font-size: 24px;
 	color: white;
 }
-
 
 
 .vitejte {
@@ -102,6 +103,7 @@ max-width: 1100px;
 .nabidka {
 	background-color: #f0f0f0;
 }
+
 
 .produkty {
 	display: flex;
@@ -147,7 +149,7 @@ max-width: 1100px;
 	border-radius: 5px;
 }
 
-.vitejte, .nabidka, .pristup {
+.vitejte, .nabidkaobsah, .pristup {
 	padding: 80px 0;
 	max-width: 1100px;
 	margin: 0 auto;
